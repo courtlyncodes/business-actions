@@ -5,7 +5,7 @@ pull_request:
 # top-level call-out of the different tasks within the workflow
 jobs:
 # job id
-test:
+  test:
     name: Test
     runs-on: ubuntu-latest
 
