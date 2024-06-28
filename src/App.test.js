@@ -11,3 +11,10 @@ it('should render', () => {
 
   expect(screen.getByText('Business Contacts')).toBeInTheDocument();
 });
+
+it('should print out my name', () => {
+  render(<App />);
+
+  const nameElement = screen.getByText('Courtlyn Boykin'); // Use a regex to match your name
+  expect(nameElement).toBeInTheDocument();
+})
