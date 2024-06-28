@@ -14,7 +14,7 @@ jobs:
     # extend from these published, pre-configured actions
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
-    with:
+      with:
         # the node version for the setup-node action
         node-version: 16.x
     # Install packages and run tests
